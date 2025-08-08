@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "sku": "SKU001",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "brand": "TechBrand",
+      "base_cost": 50.0,
+      "current_price": 89.99,
+      "inventory_level": 150,
+      "weight": 0.5,
+      "features": [
+        "wireless",
+        "noise-cancelling",
+        "bluetooth"
+      ]
+    },
+    {
+      "sku": "SKU002",
+      "name": "Fitness Tracker",
+      "category": "Wearables",
+      "brand": "FitTech",
+      "base_cost": 30.0,
+      "current_price": 59.99,
+      "inventory_level": 75,
+      "weight": 0.1,
+      "features": [
+        "heart-rate",
+        "step-counter",
+        "waterproof"
+      ]
+    },
+    {
+      "sku": "SKU003",
+      "name": "Smart Phone Case",
+      "category": "Accessories",
+      "brand": "CaseMaker",
+      "base_cost": 8.0,
+      "current_price": 24.99,
+      "inventory_level": 300,
+      "weight": 0.2,
+      "features": [
+        "shockproof",
+        "wireless-charging",
+        "slim"
+      ]
+    }
+  ],
+  "competitor_prices": [
+    {
+      "sku": "SKU001",
+      "competitor_name": "Amazon",
+      "price": 85.99,
+      "availability": "in_stock",
+      "shipping_cost": 0,
+      "prime_eligible": true
+    },
+    {
+      "sku": "SKU001",
+      "competitor_name": "BestBuy",
+      "price": 92.99,
+      "availability": "in_stock",
+      "shipping_cost": 5.99,
+      "prime_eligible": false
+    },
+    {
+      "sku": "SKU002",
+      "competitor_name": "Amazon",
+      "price": 54.99,
+      "availability": "in_stock",
+      "shipping_cost": 0,
+      "prime_eligible": true
+    }
+  ],
+  "demand_data": [
+    {
+      "sku": "SKU001",
+      "date": "2025-01-01",
+      "demand_score": 8.5,
+      "page_views": 1250,
+      "conversion_rate": 0.12,
+      "cart_abandonment_rate": 0.35
+    },
+    {
+      "sku": "SKU002",
+      "date": "2025-01-01",
+      "demand_score": 7.2,
+      "page_views": 890,
+      "conversion_rate": 0.08,
+      "cart_abandonment_rate": 0.42
+    }
+  ],
+  "market_factors": {
+    "seasonality": {
+      "current_season": "winter",
+      "seasonal_multiplier": 1.15,
+      "holiday_factor": 1.0
+    },
+    "economic_indicators": {
+      "consumer_confidence_index": 102.3,
+      "inflation_rate": 0.023,
+      "currency_exchange_rates": {
+        "USD_EUR": 0.85,
+        "USD_GBP": 0.73
+      }
+    }
+  }
+}

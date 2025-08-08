@@ -1,0 +1,52 @@
+{
+  "price_model_accuracy": 0.9880197048908569,
+  "demand_model_accuracy": -0.009414889864714393,
+  "feature_importance": [
+    {
+      "feature": "base_cost",
+      "importance": 0.9123979839936076
+    },
+    {
+      "feature": "competitor_avg_price",
+      "importance": 0.07549798354885835
+    },
+    {
+      "feature": "demand_score",
+      "importance": 0.0038134899701536703
+    },
+    {
+      "feature": "brand_strength",
+      "importance": 0.0016555230370855238
+    },
+    {
+      "feature": "inventory_level",
+      "importance": 0.001298331520751388
+    },
+    {
+      "feature": "seasonality_factor",
+      "importance": 0.0012734770693579695
+    },
+    {
+      "feature": "page_views",
+      "importance": 0.0009846377520481744
+    },
+    {
+      "feature": "conversion_rate",
+      "importance": 0.0008899532673814515
+    },
+    {
+      "feature": "days_since_launch",
+      "importance": 0.0008672834569520251
+    },
+    {
+      "feature": "competitor_count",
+      "importance": 0.0008403381086212491
+    },
+    {
+      "feature": "category_encoded",
+      "importance": 0.00048099827518265125
+    }
+  ],
+  "training_samples": 800,
+  "model_type": "Random Forest + Linear Regression"
+}
